@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1,.box2,.box3{
+    width: 48%;   
+    height: 30rem;
+    border: 3px solid black;
+    margin: 0.5%;
+    font-size: 3rem;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.box1{
+    float: left;
+}
+.box2{
+    float: right;
+}
+.box3{
+    width: 99%;
+    clear: both;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

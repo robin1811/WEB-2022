@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 3px solid black;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.box{
+    height: 7rem;
+    width: 21rem;
+
+}
+
+.box1{
+    background: rgb(193, 9, 9);
+}
+.box2{
+    background: rgb(129, 193, 9);
+}
+.box3{
+    background: rgb(9, 193, 129);
+}
+.box4{
+    background: rgb(40, 9, 193);
+}
+.box5{
+    background: rgb(193, 9, 181);
+}
+.box6{
+    background: rgb(87, 15, 34);
+}

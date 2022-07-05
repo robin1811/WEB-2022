@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: lightslategrey;
+}
+h1{
+    font-size: 5rem;
+}
+
+
+
+@media (max-width : 1000px){
+    body{
+        background: rgb(155, 155, 44);
+    }
+    .tablet{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width : 500px){
+    body{
+        background: rgb(7, 178, 164);
+    }
+    .mobile{
+        font-size: 2.5rem;
+    }
+}

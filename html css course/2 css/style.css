@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    height: 10rem;   
+}
+
+/* pseudo classes */
+:hover{
+    background : blue;
+}
+
+button:focus{
+    background : pink;
+}
+
+/* pseudo elements */
+h1::before{
+    content: "hello";
+}
+
+h1::after{
+    content: "there";
+}
+
+/* how are you all doing in your lifes hope so everyons is enjoying in their lifes. */
+
